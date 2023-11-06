@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Web Page</title>
     <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+        .topnav {
             overflow: hidden;
+             background-color: rgb(21, 163, 199);
         }
-        li {
+
+        .topnav a {
             float: left;
+            color: #000000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
         }
-        li a {
-            display: block;
-            padding: 8px;
-            background-color: rgb(21, 163, 199);
+        .topnav a:hover {
+            background-color: rgb(98, 144, 156);
+            color:aliceblue
         }
         table, th, td {
           border: 1px solid black;
@@ -39,13 +42,11 @@
         <figure>
             <img src="Images/portfolioIDblue.png" alt="Emma Dirks' logo showing a E merged with a D inside a cirlce" height="400">
         </figure>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">My Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="topnav">
+            <a href="#about">About Me</a>
+            <a href="#work">My Work</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
     <main>
         <section id="about">
