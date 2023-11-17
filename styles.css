@@ -1,16 +1,14 @@
 body {
     background-color: white;
 }
+header {
+    box-sizing: border-box;
+    background-color: white;
+
+}
 
 ul, li, a {
     text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px, 10%;
 }
 
 .nav__links {
@@ -23,9 +21,9 @@ header {
 }
 
 .nav__links li a:hover {
-    color: white
+    color: black
 }
-}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -37,6 +35,5 @@ h1, h2 {
 
 img {
     display:block;
-    margin-left: auto;
     margin-right: auto;
 }
