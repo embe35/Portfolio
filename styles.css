@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: white;
 }
@@ -10,40 +9,42 @@ header {
     background-color: white;
     border: ridge;
 }
-
+h1, .nav__links {
+    display: inline;    
+}
+ul {
+    background color: rgb(21, 163, 199);
+}
 ul, li, a {
     text-decoration: none;
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 12px;
 }
-
 .nav__links li a {
     background-color: rgb(21, 163, 199);
     color: black;
+    padding: 12px;
 }
-
 .nav__links li a:hover {
     background-color: rgb(16, 100, 121);
     color: white;
 }
-
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
-
 h2 {
     background-color: rgb(21, 163, 199)
 }
-
 img {
     display:block;
     margin-right: auto;
     margin-left: auto;
+}
+id:about {
+    
 }
