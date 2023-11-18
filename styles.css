@@ -6,8 +6,7 @@ body {
 }
 header {
     box-sizing: border-box;
-    background-color: rgb(145, 201, 215);
-    border: ridge;  
+    background-color: white;
 }
 ul {
     background-color: rgb(21, 163, 199);
