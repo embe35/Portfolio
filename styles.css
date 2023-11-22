@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
 }
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 12px;
+}
+h2 {
+    background-color: rgb(21, 163, 199)
+}
 p, li, a, table, footer {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -37,6 +45,9 @@ li a:hover {
 /* "blue and white abstract painting"" by Pawel Czerwinski under Unsplash License. 
 https://unsplash.com/photos/blue-and-white-abstract-painting-SoB70WFVWGU" */
 
+#about img {
+    border: 2px solid black;
+}
 table {
     margin-right: auto;
     margin-left: auto;
@@ -44,19 +55,12 @@ table {
     font-size: large;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid black;
     border-collapse: collapse;
+    background-color: white;
 }
 td {
     padding: 2px 10px;
-}
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding: 12px;
-}
-h2 {
-    background-color: rgb(21, 163, 199)
 }
 img {
     display: block;
@@ -82,13 +86,14 @@ img {
 #work .shirts figcaption {
     display: block;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 @media (max-width: 900px) {
     #work .shirts {
         display: block;
     }
 }
-
 #contact p {
     text-align: center;
 }
