@@ -1,21 +1,17 @@
 * {
     box-sizing: border-box;
 }
-body {
-    background-color: white;
+p, li, a, table, footer {
+    font-family: Arial, Helvetica, sans-serif;
 }
-header {
-    box-sizing: border-box;
-    background-color: white;
-}
-ul {
+nav ul {
     background-color: rgb(21, 163, 199);
     display: flex;
     list-style-type: none;
     justify-content: center;
     padding: 0;
 }
-a {
+.nav__links a {
     text-decoration: none;
     display: inline-flex;
     flex-direction: row;
@@ -28,6 +24,19 @@ li a:hover {
     background-color: rgb(16, 100, 121);
     color: white;
 }
+#about {
+    background-image: url(./Images/background.jpg)
+}
+
+/* "blue and white abstract painting"" by Pawel Czerwinski under Unsplash License. 
+https://unsplash.com/photos/blue-and-white-abstract-painting-SoB70WFVWGU" */
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    font-size: large;
+}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -35,15 +44,37 @@ table, th, td {
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding: 12px;
 }
 h2 {
     background-color: rgb(21, 163, 199)
 }
 img {
-    display:block;
+    display: block;
     margin-right: auto;
     margin-left: auto;
 }
-id:about {
-    
+#work ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+#work ul li {
+    padding-left: 70px;
+    padding-right: 120px;
+}
+#work figure {
+    display: flex;
+    justify-content: center;
+}
+#contact p {
+    text-align: center;
+}
+#contact a {
+    color: black;
+}
+#footer {
+    background-color: rgb(21, 163, 199);
+    padding: 20px;
+    text-align: center;
 }
