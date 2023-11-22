@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 12px;
+}
+h2 {
+    background-color: rgb(21, 163, 199)
+}
+p, li, a, table, footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul {
+    background-color: rgb(21, 163, 199);
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+.nav__links a {
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(21, 163, 199);
+    color: black;
+    padding: 12px;
+}
+li a:hover {
+    background-color: rgb(16, 100, 121);
+    color: white;
+}
+#about {
+    background-image: url(./Images/background.jpg);
+    padding-bottom: 20px;
+}
+
+/* "blue and white abstract painting"" by Pawel Czerwinski under Unsplash License. 
+https://unsplash.com/photos/blue-and-white-abstract-painting-SoB70WFVWGU" */
+
+#about img {
+    border: 2px solid black;
+}
+table {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    font-size: large;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+td {
+    padding: 2px 10px;
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#work h2 {
+    margin-top: 0;
+}
+#work ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+#work ul li {
+    padding-left: 70px;
+    padding-right: 120px;
+}
+#work .shirts {
+    display: flex;
+    justify-content: center;
+}
+#work .shirts figcaption {
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+@media (max-width: 900px) {
+    #work .shirts {
+        display: block;
+    }
+}
+#contact p {
+    text-align: center;
+}
+#contact a {
+    color: black;
+}
+#footer {
+    background-color: rgb(21, 163, 199);
+    padding: 20px;
+    text-align: center;
+}
