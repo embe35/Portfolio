@@ -17,6 +17,9 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Here is where the navigation bar is styled. */
+
 nav ul {
     background-color: rgb(21, 163, 199);
     display: flex;
@@ -42,7 +45,7 @@ li a:hover {
     padding-bottom: 20px;
 }
 
-/* "blue and white abstract painting"" by Pawel Czerwinski under Unsplash License. 
+/* Attribution for background image in Biography: "blue and white abstract painting"" by Pawel Czerwinski under Unsplash License. 
 https://unsplash.com/photos/blue-and-white-abstract-painting-SoB70WFVWGU" */
 
 #about img {
@@ -89,6 +92,9 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+
+/* Here is where the images in the works section are made to change from horizontal view to vertical view depending on screen size. */
+
 @media (max-width: 900px) {
     #work .shirts {
         display: block;
