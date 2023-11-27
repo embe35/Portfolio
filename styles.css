@@ -51,6 +51,10 @@ https://unsplash.com/photos/blue-and-white-abstract-painting-SoB70WFVWGU" */
 #about img {
     border: 2px solid black;
 }
+button {
+    display: grid;
+    margin: auto;
+}
 table {
     margin-right: auto;
     margin-left: auto;
