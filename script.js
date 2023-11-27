@@ -1,3 +1,3 @@
 console.log("hello world");
 document.getElementById("year")
-let year = new Date(). getFullYear();
+document.getElementById("year").innerHTML = new Date().getFullYear();
