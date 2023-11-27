@@ -55,6 +55,12 @@ button {
     display: grid;
     margin: auto;
 }
+.even {
+    color: red;
+}
+.odd {
+    color: blue;
+}
 table {
     margin-right: auto;
     margin-left: auto;

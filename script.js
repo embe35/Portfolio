@@ -13,3 +13,11 @@ document.getElementById('btn-alert').onmouseleave = () => {
     document.getElementById('btn-alert').innerText = "Say Hello!"
 };
 
+let count = 1;
+document.getElementById('btn-counter').onclick = () => {
+     count = count + 1;
+     document.getElementById('txt-counter').innerHTML = 'Number: ' + count
+}
+
+let x = count % 2;
+console.log(x);
