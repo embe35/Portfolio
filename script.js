@@ -16,8 +16,13 @@ document.getElementById('btn-alert').onmouseleave = () => {
 let count = 1;
 document.getElementById('btn-counter').onclick = () => {
      count = count + 1;
-     document.getElementById('txt-counter').innerHTML = 'Number: ' + count
-}
+     document.getElementById('txt-counter').innerHTML = count;
 
-let x = count % 2;
-console.log(x);
+    if (count % 2 == 0) {
+        document.getElementById('txt-counter').classList.add('even');
+        document.getElementById('txt-counter').classList.remove('odd');
+    } else {
+        document.getElementById('txt-counter').classList.add('odd');
+        document.getElementById('txt-counter').classList.remove('even');
+    }
+}
