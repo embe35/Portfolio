@@ -29,6 +29,11 @@ document.getElementById('btn-counter').onclick = () => {
 
 for (let i = 1; i <= 100; i++) {
     let ListItem = document.createElement('li');
-    ListItem.textContent = 'even';
-    numbers.appendChild(ListItem);
+    if (i % 2 == 0) {
+        ListItem.textContent = 'even';
+    } else {
+        ListItem.textContent = 'odd';
+    }
+    
+    document.getElementById('numbers').appendChild(ListItem);
 }
