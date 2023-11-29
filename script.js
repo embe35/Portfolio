@@ -27,7 +27,8 @@ document.getElementById('btn-counter').onclick = () => {
     }
 }
 
-for (let i = 1; i <= 100; i = i + 1) {
-    createElement(li)
-    listItem.textContent = 'text';
+for (let i = 1; i <= 100; i++) {
+    let ListItem = document.createElement('li');
+    ListItem.textContent = 'even';
+    numbers.appendChild(ListItem);
 }
