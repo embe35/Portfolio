@@ -25,7 +25,7 @@ document.getElementById('btn-counter').onclick = () => {
         document.getElementById('txt-counter').classList.add('odd');
         document.getElementById('txt-counter').classList.remove('even');
     }
-}
+};
 
 for (let i = 1; i <= 100; i++) {
     let ListItem = document.createElement('li');
